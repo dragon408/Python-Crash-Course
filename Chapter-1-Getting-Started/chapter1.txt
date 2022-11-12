@@ -1,0 +1,9 @@
+Python is a cross-platform programming language
+
+!!!Cross-platform programming language - means it runs on all the major operating systems!!!
+
+To find out whether Python is installed, enter python with a lowercase p.
+
+a >>> prompt where you can start entering Python commands
+
+To close the terminal session, press ctrl-Z and then press enter, or enter the command exit()
