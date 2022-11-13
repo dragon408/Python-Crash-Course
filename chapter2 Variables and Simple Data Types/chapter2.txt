@@ -1,0 +1,77 @@
+variable name = variable value
+
+You can change the value of a variable in your program at any time, 
+and Python will always keep track of its current value
+
+
+-------------------------------------------------------------------------
+Naming and Using Variables:
+•	 Variable names can contain only letters, numbers, and underscores. 
+They can start with a letter or an underscore, but not with a number. 
+For instance, you can call a variable message_1 but not 1_message.
+
+•	 Spaces are not allowed in variable names, but underscores can be used 
+to separate words in variable names. For example, greeting_message works, 
+but greeting message will cause errors.
+
+•	 Avoid using Python keywords and function names as variable names; 
+that is, do not use words that Python has reserved for a particular
+programmatic purpose, such as the word print. 
+
+•	 Variable names should be short but descriptive. For example, name is 
+better than n, student_name is better than s_n, and name_length is better 
+than length_of_persons_name.
+
+•	 Be careful when using the lowercase letter l and the uppercase letter O
+because they could be confused with the numbers 1 and 0.
+-----------------------------------------------------------------------------
+
+
+Some string methods
+title() - method returns a string where the first character in every 
+word is upper case('hello world'>>'Hello World')
+upper() - CAPSLOCK ('hello'>>'HELLO')
+lower() - method returns a string where all characters are lower 
+case('Hello World' >> 'hello world')
+
+Concatenating Strings - Combining Strings
+Python uses the plus symbol (+) to combine strings.
+
+----Adding Whitespace to Strings with Tabs or Newlines-----
+\t - tab 
+\n - newline
+
+
+.rstrip() - remove whitespace from the right 
+.lstrip() - remove whitespace from the left 
+.strip() - remove whitespace 
+
+A syntax error occurs when Python doesn’t recognize a section of your program as valid Python code
+
+Python uses two multiplication symbols to represent exponents
+
+
+
+------------------------------------------------------------------------------
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+-------------------------------------------------------------------------------------------
