@@ -1,0 +1,30 @@
+A list is a collection of items in a particular order.
+
+list name = ['something0', 'something1', ..., 'somethingN']
+
+!!!Index Positions Start at 0, Not 1!!!
+
+You can also use the string methods from Chapter 2 on any element in a list
+
+By asking for the item at index -1, Python always returns the last item in the list
+
+Most lists you create will be dynamic, meaning you’ll build a list and
+then add and remove elements from it as your program runs its course.
+
+
+Changing, Adding, and Removing Elements
+Changing: 
+    ur_list[index_of_elem_that_u_change] = 'new_meaning'
+Adding(to the end of list):
+    ur_list.append(new_item)
+Adding a new element at any position in your list:
+    ur_list.insert(index, new_item)
+Removing by index:
+    del ur_list[index]
+Removing an Item Using the pop() Method:
+    The pop() method removes the last item in a list, but it lets you work
+    with that item after removing it.(This method showed in chapter3.py)
+Popping Items from any Position in a List:
+    Same but u can remove any element, just write .pop(index)
+Removing an Item by Value:
+    list_name.remove()
