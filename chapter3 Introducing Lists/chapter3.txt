@@ -28,3 +28,13 @@ Popping Items from any Position in a List:
     Same but u can remove any element, just write .pop(index)
 Removing an Item by Value:
     list_name.remove()
+
+
+Organizing a List
+.sort() -  method makes it easy to sort a list
+You can also sort this list in reverse alphabetical order by passing the
+argument reverse=True to the sort() method.
+.sorted() - function lets you display your list
+in a particular order but doesn’t affect the actual order of the list
+.reverse() - to reverse the original order of a list
+len() - Finding the Length of a List
