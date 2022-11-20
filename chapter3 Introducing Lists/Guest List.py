@@ -70,6 +70,12 @@ while(len(guests) != 2):
     print('Hello ' + guests[i] + '! Im sorry, but I cant take you out to dinner :(')
     popped_guests = guests.pop(i)
 Guest(guests)
-while(len(guests) != 0):
-    guests.pop(0)
-print(guests)
+#while(len(guests) != 0):
+#    guests.pop(0)
+#print(guests)
+
+
+#3-9. Dinner Guests: Working with one of the programs from Exercises 3-4
+#through 3-7 (page 46), use len() to print a message indicating the number
+#of people you are inviting to dinner.
+print('I invited ' + str(len(guests)) + ' people to dinner.')
