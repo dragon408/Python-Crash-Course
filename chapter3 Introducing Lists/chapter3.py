@@ -43,4 +43,27 @@ print(motorcycles)
 too_expensive = 'ducati'
 motorcycles.remove(too_expensive)
 print(motorcycles)
-print("\nA " + too_expensive.title() + " is too expensive for me.")
+print("\nA " + too_expensive.title() + " is too expensive for me.\n")
+
+
+#Organizing a List
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort()
+print(cars)
+#reverse 
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort(reverse=True)
+print(cars)
+#sorted
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print("Here is the original list:")
+print(cars)
+print("\nHere is the sorted list:")
+print(sorted(cars))
+print("\nHere is the original list again:")
+print(cars)
+#reverse
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(cars)
+cars.reverse()
+print(cars)
